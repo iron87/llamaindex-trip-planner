@@ -5,15 +5,15 @@ import subprocess
 from dotenv import load_dotenv
 
 from llama_index.utils.workflow import draw_all_possible_flows
-from llama_index.llms.openai import OpenAI
+from llama_index.llms.ollama import Ollama
 
 from workflow import TourPlannerWorkflow
 
 
 async def main():
     load_dotenv()
-    llm = OpenAI(model="gpt-4o-mini")
-    workflow = TourPlannerWorkflow(llm=llm, verbose=False, timeout=240.0)
+    llm = Ollama(model="llama3.1:8b", request_timeout=60000)
+    workflow = TourPlannerWorkflow(llm=llm, verbose=False, timeout=80000.0)
     # draw_all_possible_flows(workflow, filename="workflow.html")
     query = sys.argv[1]
     result = await workflow.run(query=query)

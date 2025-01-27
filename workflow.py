@@ -18,6 +18,7 @@ from tools.places import find_places_to_visit
 
 from agents.deligator import extract_tour_information
 from agents.itinerary_writer import write_itinerary
+from datetime import datetime
 
 
 class GotDataForFlights(Event):
@@ -59,6 +60,21 @@ class TourPlannerWorkflow(Workflow):
         super().__init__(*args, **kwargs)
         self.llm = llm
 
+    def convert_date(self, date_str):
+        try:
+            datetime.strptime(date_str, "%Y-%m-%d")
+            return date_str
+        except ValueError:
+            pass
+
+        try:
+            date_obj = datetime.strptime(date_str, "%B %d, %Y")
+            return date_obj.strftime("%Y-%m-%d")
+        except ValueError:
+            return "Incorrect date format"
+
+    
+    
     @step
     async def deligate_tasks(
         self, ctx: Context, ev: StartEvent
@@ -70,13 +86,15 @@ class TourPlannerWorkflow(Workflow):
             return StopEvent(
                 result=f"Failed to plan the tour. Possible reason: {extracted_info.reasoning}"
             )
+        check_in_date_f = self.convert_date(extracted_info.tour_info.departure_date)
+        check_out_date_f = self.convert_date(extracted_info.tour_info.return_date)
         await ctx.set("destination", extracted_info.tour_info.destination)
         ctx.send_event(
             GotDataForFlights(
                 city_from=extracted_info.tour_info.airport_from,
                 city_to=extracted_info.tour_info.airport_to,
-                return_date=extracted_info.tour_info.return_date,
-                departure_date=extracted_info.tour_info.departure_date,
+                return_date=check_out_date_f,
+                departure_date=check_in_date_f,
             )
         )
         ctx.send_event(
@@ -87,8 +105,8 @@ class TourPlannerWorkflow(Workflow):
         ctx.send_event(
             GotHotelsData(
                 city=extracted_info.tour_info.destination,
-                check_in_date=extracted_info.tour_info.departure_date,
-                check_out_date=extracted_info.tour_info.return_date,
+                check_in_date=check_in_date_f,
+                check_out_date=check_out_date_f,
             )
         )
 

@@ -4,6 +4,7 @@ from pydantic import BaseModel, Field
 
 from llama_index.core.prompts.base import PromptTemplate
 from llama_index.core.llms.llm import LLM
+from ollama import chat
 
 
 class TourInfo(BaseModel):
@@ -32,8 +33,8 @@ class ExtractedInfo(BaseModel):
         ...,
         description="Your reasoning under 10 words behind the extracted information.",
     )
-    tour_info: Optional[TourInfo] = Field(
-        None, description="The extracted tour information."
+    tour_info: TourInfo = Field(
+        ..., description="The extracted tour information. Pay attention to the format of the dates."
     )
 
 
@@ -48,7 +49,6 @@ Now extract the necessary information from the user's request."""
 
 
 async def extract_tour_information(query: str, llm: LLM) -> ExtractedInfo:
-
     prompt = PromptTemplate(TOUR_PLANNER_PROMPT)
     response = llm.structured_predict(
         ExtractedInfo,
