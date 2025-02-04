@@ -1,79 +1,69 @@
-**Naples Travel Plan**
-======================
+**Naples Trip Itinerary**
 
-### Flights
+**Flights**
+================
 
-* **Departure:** Catania (CTA)
-* **Arrival:** Naples (NAP)
-* **Date:** February 27, 2025
-* **Flight Options:**
-	+ Ryanair FR 4313: CTA (21:05) -> NAP (22:10) [1 hr 5 min] - Boeing 737 ($37)
-	+ easyJet U2 4110: CTA (21:05) -> NAP (22:15) [1 hr 10 min] - Airbus A320 ($37)
+* **Flight Details**
+	+ Departure from Catania (CTA) on March 3rd, 2025
+	+ Arrival at Naples (NAP) on March 3rd, 2025
+	+ Flight Duration: 1 hour 5 minutes
+	+ Airlines:
+		- EasyJet U2 4110 (Departing from CTA at 20:55, Arriving at NAP at 22:00)
+		- Price: $44 USD
+* **Alternative Flight Option**
+	+ Ryanair FR 4313 (Departing from CTA at 20:00, Arriving at NAP at 21:05)
+	+ Price: $65 USD
 
-### Accommodation
+**Accommodation**
+================
 
-* **Hotel:** Mare Napoli
-* **Rate per night:** $115
-* **Rating:** 4.7/5
-* **Location Rating:** 4.8/5
-* **Amenities:**
-	+ Air conditioning, Crib, Heating, Ironing board, Kitchen, Microwave, Oven stove
+We recommend staying at the **Cozy apartment centrally** for its excellent location and affordable price.
 
-### Day-by-Day Plan
+* **Accommodation Details**
+	+ Rate per night: $78
+	+ Rating: 4.8/5 (81 reviews)
+	+ Location Rating: 4.8/5
+	+ Amenities:
+		- Balcony
+		- Heating
+		- Hot tub
+		- Ironing board
+		- Kitchen
+		- Microwave
+		- Oven stove
 
-#### February 28, 2025
+**Day-by-Day Itinerary**
+=====================
 
-* **Morning:** Visit Museo Archeologico Nazionale di Napoli (Archaeological museum)
-	+ **Rating:** 4.6/5
-	+ **Price:** $20.93
-* **Afternoon:** Explore Piazza del Plebiscito (Plaza)
-	+ **Rating:** 4.7/5
-	+ **Price:** Free
+### Day 1: March 3rd, 2025 - Arrival in Naples
 
-#### March 1, 2025
+* Arrive at Naples International Airport (NAP)
+* Check-in to your accommodation and freshen up
+* Visit the **Piazza del Plebiscito**, a historic square with stunning architecture and beautiful gardens. (Free admission)
 
-* **Morning:** Visit Castel Sant'Elmo (Castle)
-	+ **Rating:** 4.6/5
-	+ **Price:** $5.23
-* **Afternoon:** Visit Galleria Borbonica (Archaeological museum)
-	+ **Rating:** 4.8/5
-	+ **Price:** $11.51
+### Day 2: March 4th, 2025 - Explore Ancient History
 
-#### March 2, 2025
+* Start the day by visiting the **Museo Archeologico Nazionale di Napoli** (National Archaeological Museum of Naples), which houses an impressive collection of ancient artifacts from Pompeii and Herculaneum. ($20.59 admission)
+* Visit the nearby **Ovo Castle**, a stunning medieval fortress with breathtaking views of the city. (Free admission)
 
-* **Morning:** Visit Sansevero Chapel Museum (Art museum)
-	+ **Rating:** 4.7/5
-	+ **Price:** $12.56
-* **Afternoon:** Explore Via San Gregorio Armeno (Notable street)
-	+ **Rating:** 4.7/5
-	+ **Price:** N/A
+### Day 3: March 5th, 2025 - Discover Art and Culture
 
-#### March 3, 2025
+* Spend the morning exploring the **Sansevero Chapel Museum**, a beautiful baroque chapel with an impressive collection of art and sculptures. ($12.35 admission)
+* Visit the nearby **Galleria Umberto I**, a stunning example of Neoclassical architecture with beautiful shops and cafes. (Free admission)
 
-* **Morning:** Visit Catacombs of San Gennaro (Tourist attraction)
-	+ **Rating:** 4.7/5
-	+ **Price:** $13.61
-* **Afternoon:** Visit Complesso Monumentale di Santa Chiara (Monastery)
-	+ **Rating:** 4.7/5
-	+ **Price:** $7.33
+### Day 4: March 6th, 2025 - Castles and History
 
-#### March 4, 2025
+* Start the day by visiting the **Castel Nuovo**, a medieval castle that now serves as a museum and cultural center. ($6.18 admission)
+* Visit the nearby **Castel Sant'Elmo**, a stunning medieval fortress with breathtaking views of the city. ($5.15 admission)
 
-* **Morning:** Visit Royal Palace of Naples (Museum)
-	+ **Rating:** 4.6/5
-	+ **Price:** $15.70
-* **Afternoon:** Explore Lungomare Francesco Caracciolo (Hiking area)
-	+ **Rating:** 4.8/5
-	+ **Price:** Free
+### Day 5: March 7th, 2025 - Explore Modern Naples
 
-### Transportation
+* Spend the morning exploring the **Napoli Sotterranea Guided Authorized Tour**, which takes you through the hidden underground tunnels and passageways of ancient Naples. ($12.35 admission)
+* Visit the nearby **Chiesa del Gesù Nuovo**, a beautiful baroque church with stunning architecture and artwork. (Free admission)
 
-* **Airport Transfer:** Not included in the plan. Please arrange for your own transportation from Naples International Airport to your hotel.
+**Additional Recommendations**
 
-### Tips and Recommendations
+* Consider purchasing a **Naples City Pass**, which grants you access to many attractions, museums, and public transportation.
+* Try some of Naples' famous cuisine, including pizza margherita, spaghetti alle vongole, and limoncello.
 
-* Make sure to book your flights, accommodation, and attractions in advance to avoid any last-minute issues.
-* Be prepared for crowds and long lines at popular tourist attractions.
-* Don't forget to try some of Naples' famous pizza and coffee!
-
-I hope this travel plan helps you have a wonderful trip to Naples!
+We hope this itinerary helps you plan your trip to Naples! Don't hesitate to reach out if you have any questions or need further recommendations.

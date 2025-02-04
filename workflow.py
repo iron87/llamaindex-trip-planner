@@ -152,15 +152,15 @@ class TourPlannerWorkflow(Workflow):
             sights_info=places_ev.places_info,
             llm=self.llm,
         )
-        md_file = "itinerary.md"
-        pdf_file = "itinerary.pdf"
-        with open(md_file, "w") as f:
-            f.write(itinerary)
-        try:
-            pdfkit.from_string(
-                gh_md_to_html.markdown_to_html_via_github_api(itinerary), pdf_file
-            )
-        except Exception as e:
-            pass
-        print("\n> Done planning tour! Trying to open the itinerary...\n")
-        return StopEvent(result=pdf_file)
+        # md_file = "itinerary.md"
+        # pdf_file = "itinerary.pdf"
+        # with open(md_file, "w") as f:
+        #     f.write(itinerary)
+        # try:
+        #     pdfkit.from_string(
+        #         gh_md_to_html.markdown_to_html_via_github_api(itinerary), pdf_file
+        #     )
+        # except Exception as e:
+        #     pass
+        # print("\n> Done planning tour! Trying to open the itinerary...\n")
+        return StopEvent(result=itinerary)
